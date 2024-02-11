@@ -3,15 +3,14 @@ from sys import argv
 import math
 """finds the first two factors of any number"""
 
-
 def is_prime(num):
     """checks if a number is prime"""
     i = 3
     if num % 2 == 0:
-        return False
+    return False
     while i * i <= num:
         if num % i == 0:
-            return False
+    return False
         i += 2
     return True
 
